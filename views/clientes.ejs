@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Clientes</title>
+    <%- include("partials/head") %>
+  </head>
+  <body>
+    <%- include("partials/navigation") %>
+  
+    <div class="container vh-100 d-flex justify-content-center align-items-center">
+        <table class="table table-dark">
+            <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">NOMBRE</th>
+                <th scope="col">APELLIDO</th>
+                <th scope="col">DIRECCION</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td>LEANDRO</td>
+                <td>GIRALDO</td>
+                <td>@SJL</td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>MANUEL</td>
+                <td>FERNANDEZ</td>
+                <td>@ATE</td>
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td>Larry</td>
+                <td>VIZCARRA</td>
+                <td>@COMAS</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <%- include("partials/footer") %>
+  </body>
+</html>

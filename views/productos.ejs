@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>productos</title>
+    <%- include("partials/head") %>
+  </head>
+  <body>
+    <%- include("partials/navigation") %>
+
+    <div class="container vh-100 d-flex justify-content-center align-items-center">
+        <table class="table table-dark">
+            <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">PRODUCTO</th>
+                <th scope="col">STOCK</th>
+                <th scope="col">PRECIO</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td>AZUCAR</td>
+                <td>50</td>
+                <td>S/10</td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>ARROZ</td>
+                <td>25</td>
+                <td>S/15</td>
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td>GELATINA</td>
+                <td>100</td>
+                <td>S/8</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <%- include("partials/footer") %>
+  </body>
+</html>
